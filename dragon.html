@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <!--
+  (c) js1k.com 2015
+  Note: submissions belong to their respectful owner, do not copy without their consent
+  -->
+  <head>
+    <meta charset="utf-8">
+    <title>JS1k 2014 - 1903 - DragonDrop</title>
+    <meta name="author" content="Felix Woitzel">
+    <link rel="icon" type="image/png" href="http://js1k.com/favicon.png">
+    <link rel='canonical' href='http://js1k.com/2014-dragons/demo/1903'>
+    <link rel='shortlink' href='http://js1k.com/1903'>
+    <style>
+      /* http://qfox.nl/notes/333 */
+      body,html,iframe{margin:0;padding:0;border:0;width:100%;height:100%}
+      iframe{position:absolute;top:0;left:0;padding-top:50px;box-sizing:border-box}
+      header{position:relative;z-index:1;height:47px;padding-top:2px;border-bottom:1px solid #000;box-shadow:0 -10px 25px #ccc inset;background-color:#eee}
+      aside,div,h1,p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:center;font-size:16px;font-weight:inherit;line-height:22px;padding:0;margin:0;cursor:default}
+      aside,h1{display:inline}
+      a{color:#000;text-decoration:none;border-bottom:1px dashed #000}
+      a:hover{border-bottom:1px solid red}
+      a[href="0"]{text-decoration:line-through;pointer-events:none;border-bottom:0;color:#ccc}
+      .button{float:left;width:40px;height:40px;line-height:40px;text-align:center;padding:0;margin:2px 0 0 10px;border:1px solid #888;border-color:#ddd #888 #888 #ddd;font-family:sans-serif;font-size:30px;font-weight:700;cursor:pointer}
+      .button:hover{color:red;border-bottom-color:#888}
+      .r{margin-right:10px}
+      time{display:none}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>
+          <a href="http://js1k.com/">JS1k</a>
+          <a href="http://js1k.com/2014-dragons/">2014</a>
+          <strong></strong> demo
+          &mdash;
+          "DragonDrop" by Felix Woitzel
+        </h1>
+        <p>
+          <em>
+            DragonDrop is a progressive image-based L-System type fractal renderer.
+          </em>
+        </p>
+        <aside>
+          &mdash;
+          867 characters (2,207 bytes)
+          &mdash;
+          <a href="http://js1k.com/2014-dragons/details/1903">demo details</a>
+          &mdash;
+          <a href="http://js1k.com/2014-dragons/demos">list of demos</a>
+          &mdash;
+          <a href="http://js1k.com/1903" title="short link for your mobile devices" rel="nofollow">js1k.com/1903</a>
+          <time datetime="2014-03-25" pubdate>2014-03-25</time>
+        </aside>
+      </div>
+
+      <a href="1900" class="button p">&Larr;</a>
+      <a href="1904" class="button n">&Rarr;</a>
+    </header>
+
+    <script type="demo">
+
+d=function(s){r="";for(i in s){y=s.charCodeAt(i).toString(16);for(j=0;j<y.length;){if(y=="2609"||y=="21bb")z=y,j=5;else z=y[j++],z+=y[j++];r+=String.fromCharCode("0x"+z);}}return r;};eval(_=d("晵湣瑩潮⁮⡬⥻氨〩㭬⠱⤻氨㈩㭬⠳⥽晵湣瑩潮⁰⡬⥻甽氮灡来堻瘽氮灡来夻渨晵湣瑩潮⡬⥻扛汝⹣☦⡢孬崮砽甭㌲Ɫ孬崮礽瘫㈴⥽⤻搮捼籱⡤ⱪ⤻攮捼籱⡥Ⱨ⥽睩瑨⡢⥯湭潵獥浯癥㵰ⱡ摤䕶敮瑌楳瑥湥爨≴潵捨獴慲琢Ɐ湭潵獥摯睮㵦畮捴楯渨氩筬⹴潵捨敳☦瀨氮瑯畣桥獛そ⤻渨晵湣瑩潮⡬⥻扛汝⹣㵢孬崮砾甭㘴☦扛汝⹹㹶☦扛汝⹸㱵☦扛汝⹹㱶⬶㑽⥽⤬慤摅癥湴䱩獴敮敲⠢瑯畣桥湤∬潮浯畳敵瀽晵湣瑩潮⠩筮⡦畮捴楯渨氩筢孬崮挽ぽ⥽⤬慤摅癥湴䱩獴敮敲⠢瑯畣桭潶攢ⱦ畮捴楯渨氩筬⹰牥癥湴䑥晡畬琨⤻瀨氮瑯畣桥獛そ⥽⤻欽愻戽孝㭷㵫⹷楤瑨㭨㵫⹨敩杨琻渨晵湣瑩潮⡬⥻攽搻昽愻搽扛汝㵤潣畭敮琮捲敡瑥䕬敭敮琨≣慮癡猢⤻搮睩摴栽眻搮桥楧桴㵨㭡㵤⹤㵤⹧整䍯湴數琨∲搢⤻搮挽ぽ⤻朽扛そ㭪㵢嬱崻䴽䵡瑨㭤⹡㵍⹐䤯㐻攮愽㌪搮愻搮戽攮戽ⴲ⼳㭤⹸㴲⼳⩷㭤⹹㵥⹹㵨⼲㭥⹸㵷ⵤ⹸㭦畮捴楯渠爨氩筷楴栨昩獡癥⠩ⱴ牡湳污瑥⡬⹸ⱬ⹹⤬牯瑡瑥⠭氮愩ⱳ捡汥⡬⹢ⱬ⹢⤬瑲慮獬慴攨⵷⼲Ⱝ栯㈩Ⱨ汯扡汃潭灯獩瑥佰敲慴楯渽≬楧桴敲∬摲慷䥭慧攨搬〬〩ⱦ楬汓瑹汥㴢⌰㄰㈰㌢ⱦ楬汒散琨〬〬眬栩Ⱳ敳瑯牥⠩給畮捴楯渠焨氬洩筬⹡㵍⹡瑡渲⡭⹸⵬⹸Ɑ⹹⵬⹹⤻氮戽䴮獱牴⠨氮砭洮砩⨨氮砭洮砩⬨氮礭洮礩⨨氮礭洮礩⤯株㉽晵湣瑩潮⁳⡬Ɑ⥻洮砽氮砫䴮獩渨氮愩⩨⩬⹢⼲㭭⹹㵬⹹⭍⹣潳⡬⹡⤪株氮戯㉽琽〻⡦畮捴楯渠砨⥻牥煵敳瑁湩浡瑩潮䙲慭攨砩㭳⡤ⱪ⤻猨攬朩㭦⹦楬汓瑹汥㴢⌰〰∻昮晩汬剥捴⠰ⰰⱷⱨ⤻爨搩㭲⡥⤻愮摲慷䥭慧攨攬〬〩㭣⹤牡睉浡来⡥ⰰⰰ⤻渨晵湣瑩潮⡭⥻挮晩汬却祬攽津㈿∣㠰䘢㨢⍆㠰∻挮景湴㴢㘴灸⁡∻挮晩汬呥硴⠲㹭㼢↻∠㨢☉∬扛浝⹸Ɫ孭崮礩紩㭣⹦楬汔數琨弬ⴭ琬㘴⥽⤨⤻"));
+
+		</script>
+    <script>
+      // see http://qfox.nl/notes/333 for details
+      (function(){var doc=document;var header=doc.getElementsByTagName("header")[0];var firstChild=header.firstChild;var p=doc.getElementsByClassName("p")[0];var n=doc.getElementsByClassName("n")[0];header.insertBefore(p,firstChild);header.insertBefore(n,firstChild);header.appendChild(doc.getElementsByTagName("p")[0])})();
+      (function reload(){var doc=document;var header=doc.getElementsByTagName("header")[0];var iframe=doc.createElement("iframe");doc.body.appendChild(iframe);var iwin=iframe.contentWindow;var idoc=iframe.contentDocument;idoc.open();idoc.close();idoc.write('<!doctype html><head><meta charset="utf-8"><body>');idoc.head.innerHTML="<style>\n"+"html, body { margin: 0; padding: 0; border: 0; width: 100%; height: 100%; }\n"+"#c { display: block; }\n"+"</style>\n";idoc.body.innerHTML="<canvas"+' id="c"'+' style="width:100%; height:100%;"'+
+      "></canvas>\n"+"";var canvas=idoc.getElementsByTagName("canvas")[0];var cs=canvas.style;idoc.body.clientWidth;cs.width=(canvas.width=innerWidth)+"px";cs.height=(canvas.height=innerHeight-50)+"px";iwin.AudioContext=iwin.AudioContext||iwin.webkitAudioContext;iwin.requestAnimationFrame=iwin.requestAnimationFrame||iwin.mozRequestAnimationFrame||iwin.webkitRequestAnimationFrame||iwin.msRequestAnimationFrame||function(f){iwin.setTimeout(f,1E3/30)};var lastw;var lasth;(iwin.onorientationchange=iwin.onresize=
+        function(){var mw=Infinity;var mh=Infinity;var min=Math.min;return function(w,h){if(arguments.length===2){mw=w;mh=h}w=min(mw,innerWidth);h=min(mh,innerHeight-50);if(w!==lastw||h!==lasth){lastw=w;lasth=h;cs.width=(canvas.width=w)+"px";cs.height=(canvas.height=h)+"px"}}}())();iwin.a=canvas;iwin.b=idoc.body;if(!false)iwin.c=canvas.getContext("2d");iwin.d=function(){canvas.parentNode.removeChild(canvas)};if(false)iwin.g=function(){iwin.onorientationchange=iwin.onresize=null;try{var o={antialias:true,
+        stencil:true};var gl=canvas.getContext("webgl",o)||canvas.getContext("experimental-webgl",o);iwin.__glExts=["OES_texture_float","OES_texture_float_linear","OES_standard_derivatives","EXT_texture_filter_anisotropic","MOZ_EXT_texture_filter_anisotropic","WEBKIT_EXT_texture_filter_anisotropic","WEBGL_compressed_texture_s3tc","MOZ_WEBGL_compressed_texture_s3tc","WEBKIT_WEBGL_compressed_texture_s3tc"].map(function(ext){return gl.getExtension(ext)})}catch(e){idoc.body.innerHTML="WebGL not supported.";iwin.a=
+        iwin.b=iwin.c=iwin.d=null;throw e;}return gl}();var demo=idoc.createElement("script");demo.textContent=doc.querySelector('script[type="demo"]').textContent;idoc.body.appendChild(demo);idoc.close();iframe.contentWindow.focus();var r=doc.createElement("div");r.innerHTML="&#8635;";r.className="button r";r.title="restart just the demo (local, without remote fetch)";r.onclick=function(){doc.body.removeChild(iframe);r.parentElement.removeChild(r);iframe=null;r=null;idoc=null;header=null;reload()};var firstLine=
+        doc.getElementsByTagName("div")[0];header.insertBefore(r,firstLine)})();
+    </script>
+  </body>
+</html>
+
